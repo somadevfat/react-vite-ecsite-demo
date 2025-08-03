@@ -1,0 +1,28 @@
+.user-header {
+  display: flex;
+  justify-content: space-between; /* 両端に寄せる */
+  align-items: center; /* 上下の位置を中央に揃える */
+  padding: 10px 20px; /* 上下10px, 左右20pxの余白 */
+  background-color: #f8f9fa; /* 背景色 */
+  border-bottom: 1px solid #dee2e6; /* 下線 */
+}
+
+.logo a {
+  font-size: 1.5rem; /* 文字サイズ */
+  font-weight: bold; /* 太字 */
+  color: #333;
+  text-decoration: none; /* リンクの下線を消す */
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px; /* アイコン間の隙間 */
+}
+
+.nav-link {
+  color: #555; /* アイコンの色 */
+}
+
+.nav-link:hover {
+  color: #000; /* ホバー時の色 */
+}
